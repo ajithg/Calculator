@@ -7,13 +7,14 @@
 input {
     width: 330px;
     text-align: right;
+    height: -webkit-fill-available;
 }
 
 .calculator {
     margin-left: auto;
     margin-right: auto;
     width: 360px;
-    height: 260px;
+    height: 300px;
     border: solid;
     padding: 10px;
     border-radius: 10px;
@@ -74,6 +75,7 @@ button.active {
     padding: 10px;
     border: solid;
     border-radius: 10px;
+    height: 50px;
 }
 
 :root {
